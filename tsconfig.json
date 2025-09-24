@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",        // JavaScript moderno
+    "module": "commonjs",      // Sistema de módulos Node.js (minúsculo!)
+    "strict": true,            // Ativa verificações estritas
+    "esModuleInterop": true    // Importações compatíveis com CommonJS
+  },
+  "include": ["**/*.ts"],      // Inclui todos os arquivos TypeScript do projeto
+  "exclude": ["node_modules"]  // Ignora dependências
+}

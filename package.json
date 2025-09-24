@@ -1,0 +1,24 @@
+{
+    "name": "sistema_de_ticket_de_estacionamento",
+    "version": "1.0.0",
+    "description": "Sistema de tickets de estacionamento em TypeScript",
+    "main": "js/index.js",
+    "scripts": {
+        "dev": "ts-node ts/index.ts",
+        "build": "tsc",
+        "start": "node js/index.js"
+    },
+    "keywords": [
+        "estacionamento",
+        "ticket",
+        "typescript",
+        "node"
+    ],
+    "author": "Heringson Lima",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.11.17",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    }
+}
